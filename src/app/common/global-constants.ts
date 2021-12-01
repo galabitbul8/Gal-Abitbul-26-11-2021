@@ -1,6 +1,6 @@
 export class GlobalConstants{
     public static apiURL: string = "http://dataservice.accuweather.com/";
-    public static apiKey: string = "nehAG7sMEyYRL5g7HyNrZqfg35AMfB2L";
+    public static apiKey: string = "FMWxyKAi7G4qGCLKkvZkMRdk9KAa6mgN";
 
     public static urlAutocomplete:string =this.apiURL + "locations/v1/cities/autocomplete";
     public static urlCurrentConditions:string=this.apiURL + "currentconditions/v1/";

@@ -54,7 +54,6 @@ export class WeatherListComponent implements OnInit {
       dailyForecast.forEach((element:any) => {
         let date = new Date(element['Date']);
         let fullDate = date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
-        console.log(element);
         this.DailyForecasts.push({
           id: (Math.random()*1000).toFixed(0),
           day: GlobalConstants.days[new Date(element['Date']).getDay()],

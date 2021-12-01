@@ -260,10 +260,10 @@ mat-icon{
   border-radius: 20px;
 }
 
-::ng-deep.mat-form-field-appearance-outline .mat-form-field-outline {
-  color: rgba(255,255,255,0.7);
+:host ::ng-deep.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: rgba(255,255,255,0.7) !important;
 }
-::ng-deep.mat-icon, .mat-form-field-infix,.ng-tns-c86-0{
-  color: rgba(255,255,255,0.7);
+:host ::ng-deep.mat-icon, .mat-form-field-infix,.ng-tns-c86-0{
+  color: rgba(255,255,255,0.7) !important;
 
 }

@@ -195,9 +195,7 @@ export class CurrentWeatherComponent implements OnInit {
               startWith(''),
               map(value => this._filter(value)),
             );
-          }
-          console.log(cities);
-          
+          }        
           //push to the store
           this.store.dispatch(
             AppAction.UdateLocationAutoComplete({ allLocations: cities as any[] })
@@ -243,7 +241,6 @@ export class CurrentWeatherComponent implements OnInit {
   }
 
   checkEnglish(event:any){
-    // console.log(this.control.value);
     // A-z is 65-122 and space is 32
     if((event.keyCode >= 65 && event.keyCode <= 122)){
       // this.getLocations();
