@@ -1,5 +1,8 @@
 # WeatherApp
 
+Angular v13 reponsive weather web app developed using Accuweather API, ngrx v12.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server

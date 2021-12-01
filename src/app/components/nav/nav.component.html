@@ -1,0 +1,19 @@
+<div class="header">
+    <div class="left">
+        <!-- home nav -->        
+        <mat-icon routerLink='/' class="navIcon">home</mat-icon>
+            
+        <!-- Faborites nav -->
+        <mat-icon routerLink='/favorite' class="navIcon">favorite</mat-icon>
+
+    </div>
+    <div class="right">
+
+        <!-- cel/fer option -->
+        <div  class="navIcon" id="Unit" (click)="changeUnits()" [innerHTML]="currentUnit" ></div>
+
+       
+            
+        
+    </div>
+</div>
